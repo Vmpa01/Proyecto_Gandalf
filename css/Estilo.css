@@ -1,0 +1,213 @@
+
+
+@font-face { font-family:britannic bold ; src: url(../fonts/BRITANIC.ttf); }
+
+
+* {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    margin: 0px;
+    border: 0px;
+    text-align: left;  
+    font-family: britannic bold;
+    font-size: 28px;
+    color: rgb(112, 48, 160);
+
+}
+
+.logo{
+    position:absolute ;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  
+}
+
+.menu {
+    float: right;
+    bottom: 500px;
+    z-index: -1;
+}
+
+
+.salida {
+    text-align: right;  
+    font-family: britannic bold;
+    font-size: 45px;
+    color: silver;
+    letter-spacing: 3px;
+}
+
+
+
+.cabezote {
+    position: absolute;
+    text-align: center;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: rgb(112, 48, 160);
+    letter-spacing: 3px;
+}
+
+.cuota {
+    text-align:right ;
+    font-size: 28px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(170, 170, 170);
+    margin-left: 48px;
+    margin-top: 10px;
+    margin-top: 80px;
+    letter-spacing: 3px;
+}
+
+.papeleo {
+    position: absolute;
+    text-align:center;
+    font-size: 28px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+    letter-spacing: 3px;
+    color:goldenrod;
+}
+
+.text{
+    position: absolute;
+    top: 160px;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    text-align:center ;
+    font-size: 35px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+     
+}
+
+.esfera_rosa {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    left: 850px;
+    right: 0;
+    
+}
+
+.boton {
+    width: 10px;
+    height: 0;
+    position: absolute;
+    top: 130px;
+    bottom: 0;
+    left: 220px;
+    right: 0;
+}
+
+.esfera_morada {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.ahorro {
+    position: absolute;
+    top: 135px;
+    bottom: 0;
+    left: 150px;
+    right: 0;
+    text-align:center ;
+    font-size: 35px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+}
+
+.semilla {
+    width: 10px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    right: 0;
+}
+
+.foto_padre {
+    width: 1300px;
+    height: 500px;
+    background: white;
+    position: relative;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+ 
+.inferior {
+    width: 100%;
+    height: 350px;
+    border: rgb(170, 170, 170) solid 2px;
+    background: dimgrey;
+    position: relative;
+    top: 450px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    font-family: britannic bold;
+    z-index: -1;
+}
+
+.baner{
+    width: 100%;
+    height: 100px;
+    border: dimgrey solid 2px;
+    background: rgb(248,	203, 173);
+    position: relative;
+    top: 450px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgb(112, 48, 160);
+    text-align: center;
+    font-family: britannic bold;
+}
+
+.derechos{
+    position: relative;
+    top: 45px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: britannic bold;
+}
+
+.inferior th, td{
+    position:relative;
+    top: 20px;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    text-align: left;
+    font-size: 23px; 
+    font-family: britannic bold;
+}
+
+.inferior td{
+    top: 0;
+    font-size: 20px; 
+}

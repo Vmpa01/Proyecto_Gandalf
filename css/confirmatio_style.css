@@ -1,0 +1,48 @@
+
+@font-face { font-family:britannic bold ; src: url(fonts/BRITANIC.ttf); }
+
+*{
+   margin: 50, 50, 50, 50; 
+}
+
+
+h1{
+    position: absolute;
+    left: 450px;
+    right: 120px;
+    top: 150px;
+    font-family: britannic bold;
+    font-size: 50px;
+    color: rgb(112, 48, 160);
+   
+}
+
+.buttons{
+    position: absolute;
+    left: 380px;
+    right: 50px;
+    top: 260px;
+    width: 40%;
+    height: 150px;
+    background:white;
+    border: 2px rgb(112, 48, 160) solid;
+    border-radius: 28px;
+    text-align: center;  
+    font-family: britannic bold;
+    font-size: 30px;
+    color: rgb(112, 48, 160);
+    
+}
+
+img{
+    position: relative;
+    width: 10%; 
+    left: 750px;  
+    right:50px;
+    top: 100px;
+    
+  
+}
+
+
+
